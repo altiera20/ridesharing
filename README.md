@@ -46,7 +46,7 @@ This project is built around three classical algorithms:
 2.  **Hungarian Algorithm**: The core of the assignment logic. It solves the assignment problem in polynomial time, guaranteeing the most efficient pairing of drivers to passengers to minimize total travel time.
 3.  **Kruskal's Algorithm**: Used to find the Minimum Spanning Tree of all nodes in the system. This demonstrates how one might analyze the most efficient way to connect all participants for potential pooled rides or infrastructure planning.
 
-## 🚀 Getting Started
+##  Getting Started
 
 Follow these steps to get the project running on your local machine.
 
