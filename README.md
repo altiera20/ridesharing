@@ -1,4 +1,4 @@
-# 🚖 Ridesharing Algorithm Visualizer
+#  Ridesharing Algorithm Visualizer
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
@@ -19,16 +19,16 @@ This project provides an interactive visualization of a ridesharing system, allo
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
--   **🗺️ Interactive Map**: Uses Leaflet to display driver and passenger nodes in a configurable geographic area.
--   **🎛️ Dynamic Controls**: Easily adjust the number of drivers and passengers with sliders.
--   **🤖 Optimal Assignment**: Employs the **Hungarian (Kuhn-Munkres) algorithm** to find the assignment with the minimum total travel time.
--   **🌐 Network Analysis**: Calculates a **Minimum Spanning Tree (MST)** using Kruskal's algorithm to visualize the most efficient network backbone connecting all nodes.
--   **📊 Live Metrics**: A real-time dashboard shows the total travel time for a naive assignment vs. the optimized assignment, clearly displaying the time and cost saved.
--   **🖥️ Pure Frontend**: Runs entirely in the browser—no backend required. All logic is self-contained in TypeScript.
+-   ** Interactive Map**: Uses Leaflet to display driver and passenger nodes in a configurable geographic area.
+-   ** Dynamic Controls**: Easily adjust the number of drivers and passengers with sliders.
+-   ** Optimal Assignment**: Employs the **Hungarian (Kuhn-Munkres) algorithm** to find the assignment with the minimum total travel time.
+-   ** Network Analysis**: Calculates a **Minimum Spanning Tree (MST)** using Kruskal's algorithm to visualize the most efficient network backbone connecting all nodes.
+-   ** Live Metrics**: A real-time dashboard shows the total travel time for a naive assignment vs. the optimized assignment, clearly displaying the time and cost saved.
+-   ** Pure Frontend**: Runs entirely in the browser—no backend required. All logic is self-contained in TypeScript.
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 | Category      | Technology                                                                              |
 | :------------ | :-------------------------------------------------------------------------------------- |
@@ -38,7 +38,7 @@ This project provides an interactive visualization of a ridesharing system, allo
 | **Map**         | [Leaflet](https://leafletjs.com/) & [React-Leaflet](https://react-leaflet.js.org/)        |
 | **State Mgmt**  | React Context API with `useReducer`                                                     |
 
-## 🧠 Core Algorithms
+##  Core Algorithms
 
 This project is built around three classical algorithms:
 
@@ -75,7 +75,7 @@ Follow these steps to get the project running on your local machine.
 
 4.  **Open your browser** and navigate to `http://localhost:5173`.
 
-## 📂 Project Structure
+##  Project Structure
 
 The codebase is organized logically to separate concerns:
 
@@ -90,7 +90,3 @@ The codebase is organized logically to separate concerns:
 ├── App.tsx           # Main application component/layout
 └── main.tsx          # React entry point
 ```
-
-## 📄 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
